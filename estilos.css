@@ -55,7 +55,7 @@ h3{font-size:1.15rem;font-weight:700}
 .puerta{background:#fff;border-radius:20px;padding:26px;text-decoration:none;color:var(--tinta);box-shadow:0 14px 34px rgba(11,37,69,.12);
   display:flex;flex-direction:column;gap:6px;border:1px solid var(--linea);transition:transform .15s,box-shadow .15s}
 .puerta:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(11,37,69,.16)}
-.puerta-icono{font-size:1.9rem}
+.puerta{border-top:4px solid var(--azul)}
 .puerta-titulo{font-family:Poppins,sans-serif;font-weight:700;font-size:1.25rem;color:var(--azul-osc)}
 .puerta-texto{color:var(--tinta2);font-size:.95rem}
 .puerta-ir{margin-top:auto;padding-top:8px;color:var(--azul);font-weight:600}
@@ -97,7 +97,7 @@ h3{font-size:1.15rem;font-weight:700}
 .nota-legal{font-size:.88rem;color:var(--tinta2);border-left:3px solid var(--dorado);padding-left:12px;margin:18px 0 24px}
 .tarjetas-visa{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 .tarjetas-visa li{background:var(--suave);border:1px solid var(--linea);border-radius:16px;padding:20px 22px;font-family:Poppins,sans-serif;font-weight:600;font-size:1.1rem;display:flex;gap:12px;align-items:center}
-.tarjetas-visa span{font-size:1.6rem}
+.tarjetas-visa li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--dorado);flex-shrink:0}
 
 .seccion-oscura{background:linear-gradient(160deg,var(--azul-osc),var(--azul-medio));color:#D3E2F2}
 .seccion-oscura h2{color:#fff}
